@@ -32,6 +32,8 @@ namespace WhisperMessage
                     message = message.Replace(m, 'i');
             }
             return message;
+
+            //return Regex.Replace(message, "[asdadsas]", "i");
             
         }
     }

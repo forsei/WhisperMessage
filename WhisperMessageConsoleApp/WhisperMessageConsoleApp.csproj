@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>e62e6b24-c8c7-449c-8afc-58dbf00f6a6c</ProjectGuid>
+    <ProjectGuid>{8484B6D9-3D56-4A91-81E4-79DEA0FEDD33}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WhisperMessageConsoleApp</RootNamespace>
@@ -46,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WhisperMessage\WhisperMessage.csproj">
+      <Project>{344a5cb0-8e18-4e6b-b81f-ac9d88dcc485}</Project>
+      <Name>WhisperMessage</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
